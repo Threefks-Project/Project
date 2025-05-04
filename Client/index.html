@@ -1,10 +1,103 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TriPro Municipality</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1> jpayetai</h1>
+  <header>
+    <div class="logo">
+      <img src="https://kathmandu.gov.np/wp-content/uploads/2021/02/cropped-logo.png" alt="TriPro Municipality Logo">
+      <div class="logo-texts">
+        <div class="logo-text">Hamro Nagarpalika</div>
+        <div class="sub-logo-text">Smart Public Services</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." />
+      </div>
+      <div class="lang-select">
+        <select>
+          <option value="en">English</option>
+          <option value="np">नेपाली</option>
+        </select>
+      </div>
+      <img src="https://kathmandu.gov.np/wp-content/themes/kmc-theme/images/flag-nepal.gif" alt="Nepal Flag" class="flag" />
+    </div>
+  </header>
+
+  <div class="news-ticker">
+    <span><a href="#">Road closure notice for Bagbazar area</a></span>
+    <span><a href="#">Water supply maintenance on May 5</a></span>
+    <span><a href="#">Tax payment deadline extended</a></span>
+    <span><a href="#">Road closure notice for Bagbazar area</a></span>
+    <span><a href="#">Water supply maintenance on May 5</a></span>
+    <span><a href="#">Tax payment deadline extended</a></span>
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Services</a>
+    <a href="#">E-Payment</a>
+    <a href="#">Report Issue</a>
+    <a href="#">Contact</a>
+  </nav>
+  <!-- main body part suru -->
+  <section class="manual-gallery">
+    <div class="carousel">
+      <button class="nav prev" onclick="prevSlide()">&#10094;</button>
+      
+      <div class="carousel-images" id="carouselImages">
+        <img src="images/166015.jpg" alt="Slide 1">
+        <img src="images/166078.jpg" alt="Slide 2">
+        <img src="images/f7ab02f7a3c07497b2583d536540ab79.jpg" alt="Slide 3">
+        <img src="images/OIP (1).jpg" alt="Slide 4">
+      </div>
+  
+      <button class="nav next" onclick="nextSlide()">&#10095;</button>
+    </div>
+  </section>
+  <!-- kta harko hency photo suru -->
+  <section class="representatives">
+    <h2>Our Esteemed Representatives</h2>
+    <div class="rep-cards">
+  
+      <!-- Mayor Card -->
+      <div class="rep-card">
+        <img src="images/aahu.jpg" alt="Mayor">
+        <h3>Mr.Aashutosh Upadhya Bhattarai</h3>
+        <p class="post">Mayor</p>
+        <p>📞 9812345678</p>
+        <p>📧 mayor@municipality.gov.np</p>
+        <a href="https://facebook.com/mayorprofile" target="_blank" class="fb-link">Facebook Profile</a>
+      </div>
+  
+      <!-- Sub Mayor Card -->
+      <div class="rep-card">
+        <img src="images/toxxic.jpg" alt="Sub Mayor">
+        <h3>Mr.Prabesh Jaisi Ojha</h3>
+        <p class="post">Sub Mayor</p>
+        <p>📞 9807654321</p>
+        <p>📧 submayor@municipality.gov.np</p>
+        <a href="https://facebook.com/submayorprofile" target="_blank" class="fb-link">Facebook Profile</a>
+      </div>
+  
+      <!-- CAO Card -->
+      <div class="rep-card">
+        <img src="images/arjun.jpg" alt="CAO">
+        <h3>Mr.Arjun Upadhya Dahal</h3>
+        <p class="post">Chief Administrative Officer</p>
+        <p>📞 9845123467</p>
+        <p>📧 cao@municipality.gov.np</p>
+        <a href="https://facebook.com/caoprofile" target="_blank" class="fb-link">Facebook Profile</a>
+      </div>
+  
+    </div>
+  </section>
 </body>
 </html>

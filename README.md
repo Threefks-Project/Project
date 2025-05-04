@@ -1,2 +1,2 @@
 # Project
-For 7th sem
+For 7th sem aayachikamyaachika
